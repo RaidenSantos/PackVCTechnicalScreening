@@ -30,7 +30,7 @@ pattern matching.
     - Attempt to use this scraped text as more context for Gemini. As a fallback if gemini fails to produce a valid output, attempt to use regex to extract the names
     - A limitation of this approach is, it struggles to for companies with founders not listed on the website (especially true for larger companies).
 
-Note: I ultimately decided to use a hybrid appraoch bcause for more small early stage startups (Pack VCs focus) founders are more likely to be listed somehwere on the website, so scraping then prompting an LLM would be helpful.
+Note: I ultimately decided to use a hybrid approach bcause for more small early stage startups (Pack VCs focus) founders are more likely to be listed somehwere on the website, so scraping then prompting an LLM would be helpful.
 
 
 Future Improvements:
